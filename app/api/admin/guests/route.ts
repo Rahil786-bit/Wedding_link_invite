@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createOrUpdateGuest, getAllGuests, deleteGuest } from '@/lib/server/guests.service';
 import { getSession } from '@/lib/auth';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(request: NextRequest) {
   try {
     const session = await getSession();

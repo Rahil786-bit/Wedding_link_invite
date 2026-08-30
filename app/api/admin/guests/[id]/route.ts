@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server';
 import { deleteGuest } from '@/lib/server/guests.service';
 import { getSession } from '@/lib/auth';
 
+export const dynamic = 'force-dynamic';
+
 export async function DELETE(
   request: Request,
   { params }: { params: { id: string } }
