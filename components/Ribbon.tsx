@@ -14,7 +14,7 @@ function RibbonItem({
       <span
         className={
           item.style === 'script'
-            ? 'font-script text-2xl text-accent'
+            ? 'font-script text-[2.7rem] md:text-[3.2rem] leading-none text-accent'
             : item.style === 'mark'
               ? 'font-display text-lg leading-none text-accent'
               : 'font-display text-lg tracking-wide text-accent'

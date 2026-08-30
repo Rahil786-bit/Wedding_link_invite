@@ -29,35 +29,35 @@ export function Letter({ guestName }: LetterProps) {
       <div className="relative mx-auto max-w-2xl">
         <SectionOrnament label="دعوة" />
         <motion.div
-          className="invite-panel relative rounded-sm p-8 md:p-12"
+          className="invite-panel relative rounded-sm border border-accent/40 bg-[linear-gradient(135deg,rgba(46,18,24,0.93),rgba(19,7,12,0.97))] p-8 shadow-[0_25px_70px_rgba(19,7,12,0.6)] md:p-12"
           initial={{ scale: 0.94, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
           <OrnateCorners />
-          <p className="mb-4 font-serif text-sm tracking-widest text-accent-soft">
+          <p className="mb-4 font-serif text-sm tracking-[0.32em] text-accent-soft">
             {inviteConfig.letter.kicker.toUpperCase()}
           </p>
-          <h2 className="mb-8 font-display text-3xl text-accent md:text-4xl">
+          <h2 className="mb-8 font-display text-3xl text-[rgba(255,247,243,0.98)] drop-shadow-[0_0_18px_rgba(242,138,168,0.12)] md:text-4xl">
             {inviteConfig.letter.title}
           </h2>
           <div className="space-y-6 leading-relaxed text-foreground">
-            <p className="font-serif text-lg">{salutation},</p>
+            <p className="font-serif text-lg text-[rgba(255,247,243,0.98)]">{salutation},</p>
             {inviteConfig.letter.paragraphs.map((paragraph, idx) => (
-              <p key={idx} className="font-body">
+              <p key={idx} className="font-body text-[rgba(249,235,238,0.9)]">
                 {paragraph}
               </p>
             ))}
-            <p className="mt-8 italic text-muted-soft">{inviteConfig.letter.closingLine}</p>
-            <div className="border-t border-accent-dim pt-8">
-              <p className="font-serif text-lg text-accent">{inviteConfig.letter.signOff}</p>
+            <p className="mt-8 italic text-accent-alt">{inviteConfig.letter.closingLine}</p>
+            <div className="border-t border-accent/30 pt-8">
+              <p className="font-serif text-lg text-[rgba(255,247,243,0.98)]">{inviteConfig.letter.signOff}</p>
               <p className="mt-2 font-script text-2xl text-accent-soft">
                 {inviteConfig.letter.signOffScript}
               </p>
             </div>
           </div>
-          <div className="mt-12 flex justify-center text-3xl text-accent-dim">✦</div>
+          <div className="mt-12 flex justify-center text-3xl text-accent-soft">✦</div>
         </motion.div>
       </div>
     </motion.section>

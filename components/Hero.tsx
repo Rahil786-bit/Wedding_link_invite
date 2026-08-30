@@ -15,7 +15,7 @@ function CrescentLantern({ className, delay = 0 }: { className: string; delay?: 
     <div className={`pointer-events-none absolute ${className}`} aria-hidden>
       <div className="animate-lantern" style={{ animationDelay: `${delay}s` }}>
         <div className="mx-auto h-10 w-px bg-gradient-to-b from-transparent to-accent/70" />
-        <div className="relative mx-auto flex h-16 w-12 items-center justify-center rounded-b-full border border-accent/50 bg-accent/10 shadow-[0_0_24px_rgba(212,175,55,0.25)]">
+        <div className="relative mx-auto flex h-16 w-12 items-center justify-center rounded-b-full border border-accent/50 bg-accent/10 shadow-[0_0_24px_rgba(198,31,79,0.25)]">
           <span className="text-2xl text-accent">☾</span>
         </div>
       </div>

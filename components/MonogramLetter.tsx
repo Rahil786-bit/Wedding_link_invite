@@ -25,7 +25,7 @@ export function MonogramLetter({ left, right, size = 'lg' }: MonogramMarkProps) 
           cy="100"
           r="78"
           fill="none"
-          stroke="rgba(212, 175, 55, 0.16)"
+          stroke="rgba(var(--color-accent-rgb), 0.16)"
           strokeWidth="0.6"
         />
 
@@ -35,7 +35,7 @@ export function MonogramLetter({ left, right, size = 'lg' }: MonogramMarkProps) 
             cy="100"
             r="92"
             fill="none"
-            stroke="rgba(240, 215, 140, 0.42)"
+            stroke="rgba(var(--color-accent-soft-rgb), 0.42)"
             strokeWidth="1.15"
             strokeDasharray="28 12 4 12 8 12"
             strokeLinecap="round"
@@ -44,7 +44,7 @@ export function MonogramLetter({ left, right, size = 'lg' }: MonogramMarkProps) 
             <g key={deg} transform={`rotate(${deg} 100 100)`}>
               <path
                 d="M100 6 L104 14 L100 18 L96 14 Z"
-                fill="rgba(240, 215, 140, 0.55)"
+                fill="rgba(var(--color-accent-soft-rgb), 0.55)"
               />
             </g>
           ))}
@@ -56,14 +56,14 @@ export function MonogramLetter({ left, right, size = 'lg' }: MonogramMarkProps) 
             cy="100"
             r="84"
             fill="none"
-            stroke="rgba(212, 175, 55, 0.32)"
+            stroke="rgba(var(--color-accent-rgb), 0.32)"
             strokeWidth="0.9"
             strokeDasharray="2.2 6.5"
             strokeLinecap="round"
           />
           {[45, 135, 225, 315].map((deg) => (
             <g key={deg} transform={`rotate(${deg} 100 100)`}>
-              <circle cx="100" cy="16" r="1.6" fill="rgba(240, 215, 140, 0.5)" />
+              <circle cx="100" cy="16" r="1.6" fill="rgba(var(--color-accent-soft-rgb), 0.5)" />
             </g>
           ))}
         </g>
@@ -74,7 +74,7 @@ export function MonogramLetter({ left, right, size = 'lg' }: MonogramMarkProps) 
             cy="100"
             r="70"
             fill="none"
-            stroke="rgba(240, 215, 140, 0.28)"
+            stroke="rgba(var(--color-accent-soft-rgb), 0.28)"
             strokeWidth="0.75"
             strokeDasharray="16 10 3 10"
             strokeLinecap="round"

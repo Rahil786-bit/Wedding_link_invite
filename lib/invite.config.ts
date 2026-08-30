@@ -6,16 +6,16 @@ import { InviteConfig } from './config-types';
  */
 export const inviteConfig: InviteConfig = {
   site: {
-    title: 'Mohammad Rahil & Ruhi Firdous — Nikah Invitation',
+    title: 'Gulam Sabbani & Shabnam Bano — Nikah Invitation',
     description:
-      'With the blessing of Allah, you are invited to the nikah of Mohammad Rahil and Ruhi Firdous',
+      'With the blessing of Allah, you are invited to the nikah of Gulam Sabbani and Shabnam Bano',
     faviconEmoji: '🌙',
   },
   celebration: {
     primaryName: 'Gulam Sabbani',
     secondaryName: 'Shabnam Bano',
-    arabicPrimary: 'محمد راہل',
-    arabicSecondary: 'روحی فردوس',
+    arabicPrimary: 'غلام صبانی',
+    arabicSecondary: 'شبنم بانو',
     joiner: '&',
     monogram: {
       left: 'S',
@@ -24,26 +24,26 @@ export const inviteConfig: InviteConfig = {
     bismillah: 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ',
     kicker: 'In the name of God, the most gracious, the most merciful',
     intro:
-      'With praise to Allah and hearts full of shukr, the families request the honour of your presence as Mohammad Rahil and Ruhi Firdous begin their life together in the bond of nikah.',
+      'With praise to Allah and hearts full of shukr, the families request the honour of your presence as Gulam Sabbani and Shabnam Bano begin their life together in the bond of nikah.',
     footerNote: 'Dua ka niyaaz hai — aapki duaon aur ashraaf ke liye',
   },
   theme: {
     palette: {
-      background: '#0b1c18',
-      backgroundDeep: '#06110e',
-      foreground: '#f4ead6',
-      ivory: '#fff8ea',
-      accent: '#d4af37',
-      accentSoft: '#f0d78c',
-      accentDeep: '#8a6a1f',
-      accentDim: '#5c4a24',
-      accentAlt: '#c4a35a',
-      muted: '#6d7f76',
-      mutedSoft: '#9aada3',
-      mutedFaint: '#3d4f48',
-      accentRgb: '212, 175, 55',
-      accentSoftRgb: '240, 215, 140',
-      accentAltRgb: '196, 163, 90',
+      background: '#2a1018',
+      backgroundDeep: '#13070c',
+      foreground: '#f9ebee',
+      ivory: '#fff7f3',
+      accent: '#d4af67',
+      accentSoft: '#f1d48d',
+      accentDeep: '#8e6925',
+      accentDim: '#61421a',
+      accentAlt: '#e8c986',
+      muted: '#b69369',
+      mutedSoft: '#d6bf97',
+      mutedFaint: '#402c23',
+      accentRgb: '212, 175, 103',
+      accentSoftRgb: '241, 212, 141',
+      accentAltRgb: '232, 201, 134',
     },
     fonts: {
       googleFontsUrl:
@@ -69,13 +69,13 @@ export const inviteConfig: InviteConfig = {
     title: 'You Are Invited',
     fallbackSalutation: 'Assalamu Alaikum',
     paragraphs: [
-      'Alhamdulillah. With the mercy of Allah, two families are becoming one. We invite you to share in the nikah of Mohammad Rahil and Ruhi Firdous.',
+      'Alhamdulillah. With the mercy of Allah, two families are becoming one. We invite you to share in the nikah of Gulam Sabbani and Shabnam Bano.',
       'Your presence, duas, and barakah mean more to us than any celebration. Please join us as we begin this journey with faith, love, and gratitude.',
       'May Allah accept this union, fill their home with sakoon, and keep them on the path of righteousness. Ameen.',
     ],
     closingLine: 'With love, respect, and duas,',
-    signOff: 'Mohammad Rahil & Ruhi Firdous',
-    signOffScript: 'محمد راہل و روحی فردوس',
+    signOff: 'The Sabbani & Shabnam Families',
+    signOffScript: ' صبانی و شبنم کی طرف سے',
   },
   ribbon: {
     enabled: true,
@@ -117,9 +117,9 @@ export const inviteConfig: InviteConfig = {
         mapUrl: 'https://goo.gl/maps/1LDY8c5UGPnrQ53e8?g_st=aw',
         note: "The groom's procession arrival",
         accent: 'from-accent-soft to-accent-deep',
-        glow: 'rgba(212, 175, 55, 0.3)',
-        spotColor: '#d4af37',
-        borderColor: '#8a6a1f',
+        glow: 'rgba(242, 138, 168, 0.22)',
+        spotColor: '#f28aa8',
+        borderColor: '#7d112c',
         details: [
           'Vows exchanged, blessings given, two families becoming one',
           'Please arrive a little early to share in the prayers',
@@ -141,9 +141,9 @@ export const inviteConfig: InviteConfig = {
         mapUrl: 'https://goo.gl/maps/1LDY8c5UGPnrQ53e8?g_st=aw',
         note: 'The wedding feast, following the Sunnah',
         accent: 'from-accent-alt to-accent-soft',
-        glow: 'rgba(196, 163, 90, 0.3)',
-        spotColor: '#c4a35a',
-        borderColor: '#d4af37',
+        glow: 'rgba(231, 161, 181, 0.24)',
+        spotColor: '#e7a1b5',
+        borderColor: '#c61f4f',
         details: [
           'Walimah dinner for family and friends',
           'A feast, long conversations, and more photographs than anyone planned for',
@@ -169,9 +169,9 @@ export const inviteConfig: InviteConfig = {
         mapUrl: 'https://maps.google.com',
         note: "Henna, song, and the bride's celebration",
         accent: 'from-accent-deep to-accent-dim',
-        glow: 'rgba(138, 106, 31, 0.3)',
-        spotColor: '#8a6a1f',
-        borderColor: '#5c4a24',
+        glow: 'rgba(198, 31, 79, 0.25)',
+        spotColor: '#c61f4f',
+        borderColor: '#7d112c',
         details: [
           'Mehendi by a professional artist',
           'Songs, dholak, and family performances',
@@ -182,35 +182,6 @@ export const inviteConfig: InviteConfig = {
           {
             src: 'https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800',
             caption: "Henna, song, and the bride's celebration",
-          },
-        ],
-      },
-      {
-        key: 'nikah',
-        title: 'Nikah',
-        scriptTitle: 'نکاح',
-        date: '2026-12-25',
-        day: 'Friday',
-        time: '1:30 PM',
-        venue: 'Masjid Al-Noor',
-        location: 'City Center',
-        address: '12 Faith Avenue, City Center',
-        mapUrl: 'https://maps.google.com',
-        note: 'The sacred contract, by the will of Allah',
-        accent: 'from-accent-soft to-accent',
-        glow: 'rgba(240, 215, 140, 0.28)',
-        spotColor: '#f0d78c',
-        borderColor: '#d4af37',
-        details: [
-          'Khutbah and nikah ceremony',
-          'Dua for the couple and both families',
-          'Dates and sherbet after the nikah',
-          'Modest dress requested',
-        ],
-        gallery: [
-          {
-            src: 'https://images.unsplash.com/photo-1564769625905-50e93615e769?w=800',
-            caption: 'The sacred contract, by the will of Allah',
           },
         ],
       },
@@ -265,7 +236,7 @@ export const inviteConfig: InviteConfig = {
     maxMessageLength: 280,
     scriptAccent: 'نیکی و برکت',
     title: 'Duas & Blessings',
-    text: 'Leave a heartfelt dua for Rahil and Ruhi',
+    text: 'Leave a heartfelt dua for Sabbani and Shabnam',
     form: {
       kicker: 'Share Your Dua',
       title: 'Leave a Wish',
@@ -296,7 +267,7 @@ export const inviteConfig: InviteConfig = {
   footer: {
     script: 'بارك الله لهما وبارك عليهما وجمع بينهما في خير',
     blessing: 'May Allah bless them, shower barakah upon them,\nand unite them in goodness. Ameen.',
-    credit: 'Crafted with love for Mohammad Rahil & Ruhi Firdous',
+    credit: 'Crafted with love for Sabbani & Shabnam',
   },
   shareMessages: [
     {
@@ -321,7 +292,7 @@ JazakAllahu Khairan. 🤍`,
       label: 'Formal',
       body: `Assalamu Alaikum, {{guest}}
 
-With the blessings of Allah ﷻ, you are cordially invited to the nikah of Mohammad Rahil and Ruhi Firdous.
+With the blessings of Allah ﷻ, you are cordially invited to the nikah of Gulab Sabbani and Shabnam Bano.
 
 💌 *We've created a personalised invitation especially for you. Please tap the link below to view it:*
 
@@ -332,7 +303,7 @@ You will find all the event details, venue information, and timings within your 
 We would be truly honoured to have you celebrate this joyous occasion with us.
 
 *With warm regards,*
-*Rahil & Ruhi* 🤍`,
+*Sabbani & Shabnam Families* 🤍`,
     },
     {
       id: 'urdu',
