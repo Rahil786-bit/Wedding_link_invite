@@ -12,17 +12,17 @@ export const inviteConfig: InviteConfig = {
     faviconEmoji: '🌙',
   },
   celebration: {
-    primaryName: 'Mohammad Rahil',
-    secondaryName: 'Ruhi Firdous',
+    primaryName: 'Gulam Sabbani',
+    secondaryName: 'Shabnam Bano',
     arabicPrimary: 'محمد راہل',
     arabicSecondary: 'روحی فردوس',
     joiner: '&',
     monogram: {
-      left: 'R',
-      right: 'R',
+      left: 'S',
+      right: 'S',
     },
     bismillah: 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ',
-    kicker: 'Nikah Mubarak',
+    kicker: 'In the name of God, the most gracious, the most merciful',
     intro:
       'With praise to Allah and hearts full of shukr, the families request the honour of your presence as Mohammad Rahil and Ruhi Firdous begin their life together in the bond of nikah.',
     footerNote: 'Dua ka niyaaz hai — aapki duaon aur ashraaf ke liye',
@@ -80,13 +80,14 @@ export const inviteConfig: InviteConfig = {
   ribbon: {
     enabled: true,
     items: [
-      { text: '♥', style: 'mark' },
-      { text: ' Rahil & Ruhi ', style: 'display' },
-      { text: '♥', style: 'mark' },
-      { text: ' راہل و روحی ', style: 'script' },
       { text: '✦', style: 'mark' },
-      { text: 'محمد  و روحي ', style: 'script' },
-      { text: '✦', style: 'mark' },
+      { text: ' Sabbani ', style: 'display' },
+      { text: '♥', style: 'mark' },
+      { text: ' Shabnam ', style: 'display' },
+       { text: '✦', style: 'mark' },
+      { text: 'صباني', style: 'script' },
+      { text: '♥', style: 'mark' },
+      { text: 'شبنم', style: 'script' },
     ],
   },
   events: {
