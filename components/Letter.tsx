@@ -39,20 +39,20 @@ export function Letter({ guestName }: LetterProps) {
           <p className="mb-4 font-serif text-sm tracking-[0.32em] text-accent-soft">
             {inviteConfig.letter.kicker.toUpperCase()}
           </p>
-          <h2 className="mb-8 font-display text-3xl text-[rgba(255,247,243,0.98)] drop-shadow-[0_0_18px_rgba(242,138,168,0.12)] md:text-4xl">
+          <h2 className="mb-8 font-display text-3xl text-accent-soft drop-shadow-[0_0_22px_rgba(212,175,103,0.22)] md:text-4xl">
             {inviteConfig.letter.title}
           </h2>
           <div className="space-y-6 leading-relaxed text-foreground">
             <p className="font-serif text-lg text-[rgba(255,247,243,0.98)]">{salutation},</p>
             {inviteConfig.letter.paragraphs.map((paragraph, idx) => (
-              <p key={idx} className="font-body text-[rgba(249,235,238,0.9)]">
+              <p key={idx} className="font-body text-[rgba(249,235,238,0.9)] leading-relaxed">
                 {paragraph}
               </p>
             ))}
-            <p className="mt-8 italic text-accent-alt">{inviteConfig.letter.closingLine}</p>
+            <p className="mt-8 italic text-accent-soft">{inviteConfig.letter.closingLine}</p>
             <div className="border-t border-accent/30 pt-8">
               <p className="font-serif text-lg text-[rgba(255,247,243,0.98)]">{inviteConfig.letter.signOff}</p>
-              <p className="mt-2 font-script text-2xl text-accent-soft">
+              <p className="mt-2 font-script text-2xl text-accent-soft drop-shadow-[0_0_10px_rgba(212,175,103,0.18)]">
                 {inviteConfig.letter.signOffScript}
               </p>
             </div>

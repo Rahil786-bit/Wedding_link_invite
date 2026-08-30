@@ -59,7 +59,7 @@ export function Hero({ onViewInvitation, onLeaveWish }: HeroProps) {
           <div className="mx-auto mb-8 h-px w-40 shimmer-gold" />
 
           <motion.p
-            className="mb-3 text-center font-serif text-sm tracking-[0.35em] text-accent uppercase"
+            className="mb-3 text-center font-serif text-sm tracking-[0.35em] text-accent-soft uppercase drop-shadow-[0_0_12px_rgba(241,212,141,0.18)]"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.45 }}
@@ -86,12 +86,12 @@ export function Hero({ onViewInvitation, onLeaveWish }: HeroProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.55 }}
           >
-            <h1 className="font-display text-4xl leading-tight md:text-6xl">
-              <span className="block text-accent">{celebration.primaryName}</span>
+            <h1 className="font-display text-4xl leading-tight tracking-[0.04em] text-accent-soft drop-shadow-[0_0_22px_rgba(241,212,141,0.2)] md:text-6xl">
+              <span className="block">{celebration.primaryName}</span>
               <span className="my-2 block font-serif text-2xl italic text-accent md:text-3xl">
                 {celebration.joiner}
               </span>
-              <span className="block text-accent">{celebration.secondaryName}</span>
+              <span className="block">{celebration.secondaryName}</span>
             </h1>
           </motion.div>
 
@@ -122,14 +122,14 @@ export function Hero({ onViewInvitation, onLeaveWish }: HeroProps) {
           >
             <button
               onClick={onViewInvitation}
-              className="rounded-sm border border-accent bg-accent px-8 py-3 font-serif text-background transition-smooth hover:scale-105 hover:bg-accent-soft"
+              className="rounded-sm border border-accent bg-[linear-gradient(135deg,rgba(241,212,141,0.95),rgba(212,175,103,0.95))] px-8 py-3 font-serif text-background shadow-[0_0_22px_rgba(212,175,103,0.25)] transition-smooth hover:scale-105 hover:brightness-110"
             >
               View the Invitation
             </button>
             {inviteConfig.wishes.enabled && (
               <button
                 onClick={onLeaveWish}
-                className="rounded-sm border-2 border-accent px-8 py-3 font-serif text-accent transition-smooth hover:scale-105 hover:bg-accent hover:text-background"
+                className="rounded-sm border-2 border-accent px-8 py-3 font-serif text-accent shadow-[0_0_18px_rgba(212,175,103,0.2)] transition-smooth hover:scale-105 hover:bg-accent hover:text-background"
               >
                 Leave a Dua
               </button>

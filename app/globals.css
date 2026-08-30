@@ -208,11 +208,12 @@ body {
 }
 
 .invite-panel {
-  background: linear-gradient(180deg, rgba(42, 16, 24, 0.8), rgba(19, 7, 12, 0.88));
-  border: 1px solid rgba(212, 175, 103, 0.4);
+  background: linear-gradient(180deg, rgba(42, 16, 24, 0.82), rgba(19, 7, 12, 0.9));
+  border: 1px solid rgba(212, 175, 103, 0.66);
   box-shadow:
-    0 0 0 1px rgba(241, 212, 141, 0.12) inset,
-    0 24px 60px rgba(0, 0, 0, 0.35);
+    0 0 0 1px rgba(241, 212, 141, 0.18) inset,
+    0 0 32px rgba(212, 175, 103, 0.12),
+    0 24px 60px rgba(0, 0, 0, 0.38);
   backdrop-filter: blur(10px);
 }
 
